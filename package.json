@@ -1,0 +1,22 @@
+{
+  "name": "learningnoderedis1",
+  "version": "0.0.1",
+  "description": "This is a sample learning project for usage of Redis with Node.JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "Redis"
+  ],
+  "author": "Navin Prakash",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.3",
+    "morgan": "^1.6.1",
+    "redis": "^2.4.2"
+  }
+}
