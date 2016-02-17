@@ -30,6 +30,15 @@ redisClient.on('error',function connectedRedis(){
     console.log('Failed to  connect to the Redis client')
     
 });
-    } //end redisConnectFunction
+
+redisClient.set('key22','value1',function (error,reply){
+    if(error)
+        console.log(error);
+     else
+     console.log('Set the value');
+     console.log(reply);
+});
+
+} //end redisConnectFunction
     
 redisConnect();
